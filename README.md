@@ -17,7 +17,7 @@
 |---------------------------------|----------------------------------------------------------------------------|-----------------------|
 | HTTP_BASE_PATH                  | Базовый путь основного API.                                                | /v1/docs              |
 | HTTP_MAX_HEADER_SIZE            | Максимально допустимый размер заголовка запроса.                           | 8KB                   |
-| HTTP_MANAGEMENT_BASE_PATH       | Базовый путь служебного API.                                               | /v1/docs              |
+| HTTP_MANAGEMENT_BASE_PATH       | Базовый путь служебного API.                                               | /v1/docs-server       |
 | DATASOURCE_URL                  | Ссылка на базу данных PostgreSQL.                                          |                       |
 | DATASOURCE_USERNAME             | Имя пользователя, необходимое для подключения к базе данных PostgreSQL.    |                       |
 | DATASOURCE_PASSWORD             | Пароль пользователя, необходимый для подключения к базе данных PostgreSQL. |                       |
@@ -34,4 +34,4 @@
 
 ### Чтение документации API
 
-Документация API должна быть доступна по адресу: https://api.sogeor.com/v1/docs/actuator/swagger-ui
+Документация API должна быть доступна по адресу: https://api.sogeor.com/v1/docs/swagger-ui
