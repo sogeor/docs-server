@@ -25,9 +25,8 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-actuator")
-    implementation("org.springframework.boot:spring-boot-starter-webflux")
     implementation("org.springframework.cloud:spring-cloud-starter-config")
-    testImplementation("io.projectreactor:reactor-test")
+    implementation("org.springframework.boot:spring-boot-starter-webmvc")
 
     compileOnly("org.jetbrains:annotations:${property("o.jetbrains.annotations")}")
     implementation("io.micrometer:micrometer-registry-prometheus")
