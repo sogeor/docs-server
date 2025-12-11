@@ -29,10 +29,10 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-webflux")
     testImplementation("io.projectreactor:reactor-test")
 
-    compileOnly("org.jetbrains:annotations:${findProperty("org.jetbrains.annotations.version")}")
+    compileOnly("org.jetbrains:annotations:${findProperty("o.jetbrains.annotations")}")
     implementation("io.micrometer:micrometer-registry-prometheus")
-    implementation("org.springdoc:springdoc-openapi-starter-webflux-api:${
-        findProperty("org.springdoc.springdoc-openapi-starter-webflux-api.version")
+    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:${
+        findProperty("o.springdoc.springdoc-openapi-starter-webmvc-ui")
     }")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
@@ -41,8 +41,7 @@ dependencies {
 
 dependencyManagement {
     imports {
-        mavenBom(
-            "org.springframework.cloud:spring-cloud-dependencies:${findProperty("org.springframework.cloud.version")}")
+        mavenBom("org.springframework.cloud:spring-cloud-dependencies:${findProperty("o.s.cloud")}")
     }
 }
 
