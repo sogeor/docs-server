@@ -25,8 +25,8 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-actuator")
-    implementation("org.springframework.cloud:spring-cloud-config-server")
     implementation("org.springframework.boot:spring-boot-starter-webflux")
+    implementation("org.springframework.cloud:spring-cloud-starter-config")
     testImplementation("io.projectreactor:reactor-test")
 
     compileOnly("org.jetbrains:annotations:${property("o.jetbrains.annotations")}")
