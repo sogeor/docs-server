@@ -24,4 +24,4 @@
 
 ### Чтение документации API
 
-Документация API должна быть доступна по адресу: https://api.sogeor.com/v1/docs-server/swagger-ui
+Документация API должна быть доступна по адресу: https://api.sogeor.com/v1/docs-server/swagger-ui.html
