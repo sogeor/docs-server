@@ -32,7 +32,7 @@ dependencies {
     compileOnly("org.jetbrains:annotations:${property("o.jetbrains.annotations")}")
     implementation("io.micrometer:micrometer-registry-prometheus")
     implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:${
-        findProperty("o.springdoc.springdoc-openapi-starter-webmvc-ui")
+        property("o.springdoc.springdoc-openapi-starter-webmvc-ui")
     }")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
